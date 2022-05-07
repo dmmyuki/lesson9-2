@@ -78,10 +78,14 @@ footer {
   
   .block {
     width:90%;
+    margin-right:auto;
+    margin-left:auto;
     margin-bottom:20px;
   }
   
-  .block:nth-last-child {
+  .block:last-child {
+    margin-right:auto;
+    margin-left:auto;
     margin-bottom:0;
   }
   
